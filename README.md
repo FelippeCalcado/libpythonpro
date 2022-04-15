@@ -5,4 +5,4 @@ Este e um teste!
 
 Este tambem.
 
-Link para bla [Link] (blabla@bla.bla.bl)
+Link para bla [Link](blabla@bla.bla.bl)
