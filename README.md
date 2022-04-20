@@ -1,8 +1,20 @@
 # libpythonpro
 Módulo para exemplificar construção de projetos Python no curso PyTools.
 
-Este e um teste!
+Para instalar:
 
-Este tambem.
+'''console
+python3 -m venv .venv
+virtual environment no windows:
+.venv\Scripts\activate
+Dependencias para desenvolvedores:
+pip install -r requirements-dev.txt
+Dependencias para usuarios:
+pip install -r requirements.txt
+'''
 
-Link para Lisense [License](https://github.com/FelippeCalcado/libpythonpro/blob/main/LICENSE/)
+Para avaliar a qualidade do codigo:
+
+'''console
+flake8
+'''
