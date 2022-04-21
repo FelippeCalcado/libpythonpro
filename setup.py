@@ -99,7 +99,7 @@ NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Felippe Calcado"
 AUTHOR_EMAIL = "felippecalcado@gmail.com"
-URL = "https://github.com/pythonprobr/libpythonpro"
+URL = "https://github.com/FelippeCalcado/libpythonpro"
 VERSION = __import__(PACKAGE).__version__
 
 setup(
