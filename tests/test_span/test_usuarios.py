@@ -6,7 +6,7 @@ from span.modelos import Usuario
 
 
 
-@pytest.fixture
+@pytest.fixture(scope='session')
 def conexao():
     #Setup
     conexao_obj = Conexao()
@@ -24,7 +24,7 @@ def sessao(conexao):
 def test_salvar_usuario(sessao):
     usuario = Usuario(nome='Felippe')
     sessao.salvar(usuario)
-    assert isinstance(usuario.id,int)
+    assert isinstance(usuario.id, int)
 
 def test_listar_usuarios(conexao,sessao):
     usuarios = [Usuario(nome='Felippe'),
